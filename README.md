@@ -1,8 +1,8 @@
-[//]: # (Image References)
-[image_0]: ./misc/home.gif
-
 # Home Service Robot Project
-![alt text][image_0] 
+
+<p align="center">
+  <img src="./misc/home.gif"/>
+</p> 
 
 The goal of this project is to program a robot than can autonomously map an environment and navigate to pick up and drop off virtual objects. List of the steps in this project :
 
@@ -81,5 +81,4 @@ $ cd ~/catkin_ws
 $ source devel/setup.bash
 $ catkin_make
 ```
-To run home service robot navigate to `ShellScripts` directory and run
-`./home_service.sh`
+Run `./home_service.sh` in `ShellScripts` directory to deploy the home service robot.
